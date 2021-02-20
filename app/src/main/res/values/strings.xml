@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Indtoruce to You : BUSAN</string>
+    <string name="title">Travel to Busan</string>
+    <string name="first">Shopping Area</string>
+    <string name="second">Beautiful Beach</string>
+    <string name="third">Historical Area</string>
+    <string name="fourth">Park / Nature</string>
+    <string name="area">PLACE  :  </string>
+    <string name="address">ADDRESS  :  </string>
+    <string name="area_input">PLACE INPUT</string>
+    <string name="address_input">ADDRESS INPUT</string>
+    <string name="explain">Explain  :  </string>
+    <string name="explain_input">Explain INPUT</string>
+    <string name="shopping_area">Shopping Area</string>
+    <string name="beautiful_beach">Beautiful Beach</string>
+    <string name="historical_area">Historical Area</string>
+    <string name="parkandnautre">Park and Nature</string>
+    <string name="tab1">Shop</string>
+    <string name="tab2">Beach</string>
+    <string name="tab3">History</string>
+    <string name="tab4">Park</string>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/background1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/listpicture"
+            style="@style/listitem"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <LinearLayout
+            style="@style/listitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/listitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/area" />
+
+            <TextView
+                android:id="@+id/place_input"
+                style="@style/listitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/area_input" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/listitem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/listitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/address" />
+
+            <TextView
+                android:id="@+id/address_input"
+                style="@style/listitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/address_input" />
+        </LinearLayout>
+
+            <TextView
+                android:id="@+id/explain_input"
+                style="@style/listitem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/explain_input" />
+
+    </LinearLayout>
+
+</LinearLayout>
