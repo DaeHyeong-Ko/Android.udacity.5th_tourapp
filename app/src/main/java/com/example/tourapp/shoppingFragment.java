@@ -19,8 +19,8 @@ public class shoppingFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.listview, container, false);
 
         ArrayList<list> itemlist = new ArrayList<list>();
-        itemlist.add(new list(R.drawable.ekea, "EKEA", "기장읍 동부산관광","big, famous, convenient store for social life."));
-        itemlist.add(new list(R.drawable.lottetoulet, "Lotte Oulet", "기장읍 기장해안로","lotte made, lotte did, lotte make money."));
+        itemlist.add(new list(R.drawable.ekea, getString(R.string.ekea), getString(R.string.shoppingadress1),getString(R.string.shoppingexplain1)));
+        itemlist.add(new list(R.drawable.lottetoulet, getString(R.string.lottetoulet), getString(R.string.shoppingadress2),getString(R.string.shoppingexplain2)));
 
         listadapter adapter = new listadapter(getActivity(), itemlist);
 

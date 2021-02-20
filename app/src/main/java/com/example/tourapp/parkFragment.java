@@ -20,8 +20,8 @@ public class parkFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.listview, container, false);
 
         final ArrayList<list> itemlist = new ArrayList<list>();
-        itemlist.add(new list(R.drawable.igidae, "Igidae", "남구 용호동","Do you want to feel like wind blowing of sea? oK, let's go"));
-        itemlist.add(new list(R.drawable.taejongdae, "Taejongdae", "영도구 전망로","Amazing sight of sea in taejongdae. why don't you go there?"));
+        itemlist.add(new list(R.drawable.igidae, getString(R.string.igidae), getString(R.string.parkadress1),getString(R.string.parkexplain1)));
+        itemlist.add(new list(R.drawable.taejongdae, getString(R.string.taejongdae),getString(R.string.parkadress2),getString(R.string.parkexplain2)));
 
         listadapter adapter = new listadapter(getActivity(), itemlist);
 

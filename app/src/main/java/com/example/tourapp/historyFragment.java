@@ -20,8 +20,8 @@ public class historyFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.listview, container, false);
 
         final ArrayList<list> itemlist = new ArrayList<list>();
-        itemlist.add(new list(R.drawable.gamcheon, "Gamcheon Town", "사하구 감내2로","Before now, The sad history of korean's town was changed to attraction. visit and watching our story."));
-        itemlist.add(new list(R.drawable.gukje, "Gukje market", "중구 신창동4가","Many people know as movie that contains major korean's life. go to there and take it smell."));
+        itemlist.add(new list(R.drawable.gamcheon, getString(R.string.gamcheon), getString(R.string.historyadress1),getString(R.string.historyexplain1)));
+        itemlist.add(new list(R.drawable.gukje, getString(R.string.gukje), getString(R.string.historyadress2),getString(R.string.historyexplain2)));
 
         listadapter adapter = new listadapter(getActivity(), itemlist);
 

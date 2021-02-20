@@ -22,8 +22,8 @@ public class beachFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.listview, container, false);
 
         final ArrayList<list> itemlist = new ArrayList<list>();
-        itemlist.add(new list(R.drawable.haewoondae, "Haewoondae", "해운대구 우동","This is very famous Beach in korea. Every year many visitors want to go there and take it healing."));
-        itemlist.add(new list(R.drawable.gwangalli, "Gwangalli", "수영구 광안해변로","We can sea pretty and beautiful sight seeing while in beach at night. Come with Us"));
+        itemlist.add(new list(R.drawable.haewoondae, getString(R.string.haewoondae), getString(R.string.beachadress1),getString(R.string.beachexplain1)));
+        itemlist.add(new list(R.drawable.gwangalli, getString(R.string.gwangalli), getString(R.string.beachadress2),getString(R.string.beachexplain2)));
 
         listadapter adapter = new listadapter(getActivity(),itemlist);
 
